@@ -1,8 +1,9 @@
 import React from 'react'
-
+import styled,{ThemeProvider} from 'styled-components'
+import {lightTheme} from ''
 const App = () => {
   return (
-    <div>App</div>
+    <ThemeProvider theme={lightTheme}>App</ThemeProvider>
   )
 }
 
