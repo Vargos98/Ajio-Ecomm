@@ -1,8 +1,11 @@
 import React from 'react'
-
-const ProductHd = () => {
+import {TbArrowRight} from 'react-icons/tb'
+const ProductHd = (props) => {
+  const {product} = props;
   return (
-    <div>ProductHd</div>
+    <div>
+      Home <TbArrowRight /> Shop <TbArrowRight /> {product.category} <TbArrowRight /> {product.name}
+    </div>
   )
 }
 
