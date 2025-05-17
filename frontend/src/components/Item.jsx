@@ -9,8 +9,8 @@ const Item = ({ id, name, image, old_price, new_price }) => {
       </Link>
       <h3 className="text-lg font-semibold mb-2">{name}</h3>
       <div className="flex gap-4 items-center">
-        <p className="text-gray-500 line-through">₹{old_price}</p>
-        <p className="text-green-600 font-bold">₹{new_price}</p>
+        <p className="text-gray-500 line-through">₹{old_price}.00</p>
+        <p className="text-green-600 font-bold">₹{new_price}.00</p>
       </div>
     </div>
   );
