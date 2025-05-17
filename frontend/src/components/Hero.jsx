@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-screen bg-hero bg-no-repeat bg-cover bg-center pt-28">
+    <section className="relative w-full min-h-screen bg-hero bg-no-repeat bg-cover bg-center pt-28 pb-36">
       
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40 z-0" />
